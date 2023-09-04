@@ -1,5 +1,5 @@
 # BA_Statik
--FEM für Balkentragwerke mit unterschiedlichen Theorien und Elementformulierungen
+-FEM für Balkentragwerke mit unterschiedlichen Theorien und Elementformulierungen.
 
 -Ausführen der Datei GUI.py startet die GUI.
 

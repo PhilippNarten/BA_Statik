@@ -72,7 +72,7 @@ class MainWindow(tk.Tk):
         self.verformtesSystem_button.grid(row=4, column=0, sticky="w")
         
         self.combobox_theorie = ttk.Combobox(self.frame1)
-        self.combobox_theorie["width"] = 21
+        self.combobox_theorie["width"] = 24 #war 21
         self.combobox_theorie.grid(row=1, column=1, sticky="w", columnspan=2)
         self.combobox_theorie.insert(0,"Theorie wählen")
         self.combobox_theorie["values"]=["Bernoulli", "Timoshenko mit Locking", "Timoshenko reduzierte Integration", "Timoshenko ANS/DSG", "Timoshenko exakt"]
@@ -1157,7 +1157,7 @@ class MainWindow(tk.Tk):
         
     def create_element(self, create_element_knoten):
         
-        #eventuell unnötig
+        
         element_knoten = create_element_knoten[1]
         
         if create_element_knoten[0][0] == create_element_knoten[0][1]:

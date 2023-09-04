@@ -111,11 +111,11 @@ plt.show()
 
     
 
-#plot speichern
+"""#plot speichern
 datei_name = "timoshenko_kragarm_konvergenz_n1" + ".pdf"
 ordner_pfad = os.path.join(os.path.dirname(__file__), "Plots")
 datei_pfad = os.path.join(ordner_pfad, datei_name)
-plt.savefig(datei_pfad)
+plt.savefig(datei_pfad)"""
 
     
             
